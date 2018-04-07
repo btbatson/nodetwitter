@@ -10,17 +10,17 @@ const feedReadStub = require('./stubs/feed-read-stub');
 const options = {
   rss: {
     feeds: [
-      'https://www.exampleTwo.com/feed/rss',
-      'https://www.exampleTwo.com/feed/rss'
+      'http://jobs254.com/rss/all/',
+      'http://jobs254.com/rss/all/'
     ],
     daysBack: 90
   },
   twitter: {
     keys: {
-      consumer_key:        'consumer_key',
-      consumer_secret:     'consumer_secret',
-      access_token:        'access_token',
-      access_token_secret: 'access_token_secret'
+      consumer_key:        'yKL857880t8dcqAX7eLEDiz8w',
+      consumer_secret:     'C7Mj528JQ7I9aIxjojqqOKdtm0wGY05TgaG4i7kUAKSYk10kPa',
+      access_token:        '982599053199532033-anq4h5dHZGJWJ4sWvzBknP5ryowQkNO',
+      access_token_secret: 'cnyrhv81KxzZz87BHdx57hdgWVdPnhmVkHRTkUxUXnZH5'
     },
     tweet: {
       append: '#GoodRead'
